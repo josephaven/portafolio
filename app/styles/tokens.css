@@ -1,0 +1,12 @@
+:root{
+    --primary:#1DB954;
+    --bg:#121212;
+    --surface:#181818;
+    --hover:#282828;
+    --text:#ffffff;
+    --muted:#a6a6a6;
+    --muted2:#7d7d7d;
+    --border:rgba(255,255,255,.08);
+    --shadow:0 10px 30px rgba(0,0,0,.45);
+    --radius:14px;
+}

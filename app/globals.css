@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@import "./styles/tokens.css";
+@import "./styles/utilities.css";
+
+html{ scroll-behavior:smooth; }
+body{
+    margin:0;
+    background: var(--bg);
+    color: var(--text);
+    padding-bottom: 110px;
+}
+
+body{ scrollbar-width: thin; scrollbar-color: #555 var(--bg); }
+body::-webkit-scrollbar{ width:10px; }
+body::-webkit-scrollbar-track{ background: var(--bg); }
+body::-webkit-scrollbar-thumb{ background:#555; border-radius:20px; }
